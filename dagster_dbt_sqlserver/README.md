@@ -21,4 +21,19 @@ SET RECOVERY SIMPLE;
 
 go
 
+use test_database;
+go
+
+create table dbo.daft_source(col1 int, col2 varchar(50))
+GO
+
+
+insert into dbo.daft_source(col1,col2)
+VALUES
+(1,'chicken')
+,(2,'bat')
+,(3,'rat')
+,(4,'crocodile')
+go
+
 ```

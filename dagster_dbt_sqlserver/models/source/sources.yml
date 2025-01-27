@@ -1,0 +1,8 @@
+Version: 2
+
+sources:
+  - name: test_sources
+    database: test_database
+    schema: dbo
+    tables:
+      - name: daft_source
